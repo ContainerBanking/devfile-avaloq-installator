@@ -1,6 +1,6 @@
 schemaVersion: 2.1.0
 metadata:
-  name: installator-devfile
+  generateName: installator-1-19-0
   version: 1.19.0
 components:
   - name: installator
@@ -10,5 +10,7 @@ components:
       env:
         - name: SHELL
           value: bash
+        - name: HOME
+          value: /projects
       mountSources: true
       sourceMapping: /projects
