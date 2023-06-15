@@ -2,6 +2,8 @@ schemaVersion: 2.1.0
 metadata:
   generateName: installator-1.19.0
   version: 1.19.0
+networkPolicy:
+  enabled: false
 components:
   - name: installator
     container:
