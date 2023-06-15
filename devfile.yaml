@@ -1,6 +1,6 @@
 schemaVersion: 2.1.0
 metadata:
-  generateName: installator-1-19-0
+  generateName: installator-1.19.0
   version: 1.19.0
 components:
   - name: installator
