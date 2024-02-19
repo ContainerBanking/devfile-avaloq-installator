@@ -1,11 +1,11 @@
 schemaVersion: 2.1.0
 metadata:
-  generateName: installator-1-23-0-1
-  version: 1.23.0-1
+  generateName: installator-1-23-0-2
+  version: 1.23.0-2
 components:
   - name: installator
     container:
-      image: bankingaob-docker-virtual.bin.swisscom.com/ccb/avaloq-installator:1.23.0-1
+      image: bankingaob-docker-virtual.bin.swisscom.com/ccb/avaloq-installator:1.23.0-2
       memoryLimit: 20484Mi
       env:
         - name: SHELL
